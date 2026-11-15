@@ -467,7 +467,8 @@ a {
     font-weight: bold;
 }
 
-.caja-texto p {
+.caja-texto p,
+.caja-texto ul {
     color: rgb(55, 55, 55);
     font-size: 13px;
     margin-top: 5px;
@@ -476,6 +477,7 @@ a {
 .caja-texto h4 {
     font-size: 16px;
     margin-bottom: 0;
+    color: #1c2c3c;
 }
 
 .caja-texto h3 {
