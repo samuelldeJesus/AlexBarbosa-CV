@@ -4,15 +4,15 @@
 
 :root {
     --fondo: rgb(173, 175, 175);
-    --azul-principal: rgb(7, 116, 233);
+    --azul-principal: rgb(3, 50, 100);
     --azul-cajatexto: rgb(190, 230, 254);
-    --azul-boton: rgb(0, 128, 255);
+    --azul-boton: rgb(3, 50, 100);
 
     --textogris: rgb(46, 46, 46);
     --textonegro: black;
     --blanco: white;
 
-    --linea: rgb(35, 123, 230);
+    --linea: rgb(11, 55, 109);
 
     --sombra-principal: rgba(0, 0, 0, 0.4);
     --sombra-secundaria: rgba(0, 0, 0, 0.1);
@@ -89,8 +89,16 @@ a {
 .perfil {
     width: 330px;
     flex-shrink: 0;
+    position: relative;
 }
 
+.portada-perfil {
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+}
 
 /* ---------- Foto / nombre ---------- */
 
@@ -172,7 +180,7 @@ a {
     padding: 10px;
     font-size: 20px;
 
-    background-color: rgb(7, 116, 233);
+    background-color: rgb(1, 50, 100);
     color: white;
 
     border-radius: 20px;
@@ -235,7 +243,7 @@ a {
     padding: 6px 12px;
     margin-top: 5px;
 
-    background-color: rgb(7, 116, 233);
+    background-color: rgb(41, 100, 1);
     color: white;
 
     border-radius: 15px;
@@ -390,7 +398,7 @@ a {
     padding: 7px 15px;
 
     background-color: rgb(190, 230, 254);
-    color: rgb(2, 28, 255);
+    color: rgb(1, 50, 100);
 
     border-radius: 15px;
     font-size: 14px;
@@ -1297,14 +1305,14 @@ a {
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    border: 1px solid rgba(255,255,255,.15);
+    border: 0.5px solid rgba(1, 50, 100, 0.408);
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background: var(--azul-principal);
-    color: #ffffff;
+    background: #efefef;
+    color: var(--azul-principal);
     font-size: 23px;
 
     cursor: pointer;
